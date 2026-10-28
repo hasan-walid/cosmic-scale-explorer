@@ -107,3 +107,10 @@
 .human-shrink strong{font-size:21px;color:var(--gold)}
 .human-shrink small{font-size:12px;color:var(--muted)}
 @media(max-width:650px){.shrink-panel{padding:20px}.shrink-journey{grid-template-columns:1fr;gap:5px;padding:15px}.shrink-real-art{width:115px;height:115px}.shrink-model-frame{height:120px}.shrink-arrow span{font-size:26px}.shrink-arrow strong{font-size:18px}.human-shrink{align-items:start;flex-direction:column;gap:5px}}
+.feature-bottom{grid-template-columns:repeat(2,minmax(0,1fr))}
+.model-size-control{display:flex;align-items:center;gap:10px 14px;flex-wrap:wrap;margin-top:18px}
+.model-size-control label{font-size:14px;font-weight:750}
+.model-size-control .input-with-unit{width:135px}
+.model-size-control .input-with-unit input{font-size:19px}
+.model-size-control .input-with-unit:has(input:invalid){border-color:#f4b85e}
+.model-size-control small{color:var(--muted);font-size:12px}
